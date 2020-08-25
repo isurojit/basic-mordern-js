@@ -1,0 +1,24 @@
+{
+  "name": "mordern-javascript",
+  "version": "1.0.0",
+  "description": "NIll",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurojit/basic-mordern-js.git"
+  },
+  "author": "Surojit Manna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isurojit/basic-mordern-js/issues"
+  },
+  "homepage": "https://github.com/isurojit/basic-mordern-js#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
