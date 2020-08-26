@@ -22,7 +22,7 @@ console.log(val); */
 
 
 //String and Concatination
-const firstName = "Surojit";
+/*const firstName = "Surojit";
 const lastName = "Manna";
 const age = 36;
 const str = 'Hi my name is surojit'
@@ -76,5 +76,32 @@ val=  str.replace('Hi', 'bye');
 
 //Includes()
 val = str.includes('Hi');
+*/
 
-console.log(val);
+
+//Template Literals
+
+const name = "Surojit";
+const age = 36;
+const job = 'Web Developer';
+const city = 'Kolkata'
+
+//Without tamplate string(es5)
+/*html = '<ul>'+
+        '<li>Name: '+ name + '</li>'+ 
+        '<li>Age: ' + age +'</li>'+
+        '<li>Job: '+ job + '</li>'+
+        '<li>City: '+ city +'</li>'+
+        '</ul>';
+*/
+//With tamplate string(es6+)
+html = `
+    <ul>
+    <li>Name: ${name} </li>
+    <li>Age: ${age} </li>
+    <li>Job: ${job} </li>
+    <li>City: ${city} </li>
+    <li> ${2+2} </li>
+    </ul>
+`
+document.body.innerHTML = html;
