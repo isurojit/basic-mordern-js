@@ -208,3 +208,27 @@ for(let i =0 ; i< people.length; i++){
     console.log(people[i].name);
 }
 */
+
+//Dates & Time
+/*
+
+let val;
+
+const today = new Date();
+let birthday = new Date('11-08-1995 07:25:12');
+// birthday = new Date('November 8 1995 07:25:12');
+// birthday = new Date('11/8/1995');
+
+//to convert string
+// val = today.toString();
+// val = birthday;
+//val = today.getMonth();
+val = birthday.getFullYear();
+val = today.getMinutes();
+val = today.getTime();
+
+birthday.setMonth(9);
+console.log(birthday)
+
+console.log(val);
+*/
