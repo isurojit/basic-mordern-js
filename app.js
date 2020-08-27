@@ -78,7 +78,7 @@ val=  str.replace('Hi', 'bye');
 val = str.includes('Hi');
 */
 
-
+/*
 //Template Literals
 
 const name = "Surojit";
@@ -93,7 +93,7 @@ const city = 'Kolkata'
         '<li>Job: '+ job + '</li>'+
         '<li>City: '+ city +'</li>'+
         '</ul>';
-*/
+*//*
 //With tamplate string(es6+)
 html = `
     <ul>
@@ -105,3 +105,66 @@ html = `
     </ul>
 `
 document.body.innerHTML = html;
+
+*//*
+
+//Arrays
+ const numbers = [41,89,52,63,25,78,96,12];
+ const numbersSecond= new Array(25,63,96,45,78,22,12);
+ const fruit = ['Apple','Banana','Cherry','Peer','Orange'];
+ const mixed = [22,'Hello',true,undefined,null,{a:1, b:1}, new Date()];
+
+ let val;
+
+ //get Array Length
+ val= numbers.length;
+ //Check if is Array
+ val= Array.isArray(100);
+//Get single value 
+val = numbers[0];
+//Insert into Array
+numbers[3]=100;
+//Find index of value
+val = numbers.indexOf(52);
+//Mutating arrays
+    //Push-to add on end
+    numbers.push(50);
+    //Unshift-to add on first
+    numbers.unshift(25);
+    //Pop-to delete from end
+    numbers.pop();
+    //shift-to delete from start
+    numbers.shift();
+    //Splice-to splice values
+    numbers.splice(6,7);
+    //Reverse array
+    numbers.reverse();
+//Concatinate arrays
+val = numbers.concat(numbersSecond);
+
+//Sort arrays
+val = fruit.sort();
+/*val = numbers.sort();*/
+
+/*
+//Use the "compare function"
+val= numbers.sort(function(x,y){
+    return x-y;
+});
+
+//Reverse Sort
+val= numbers.sort(function(x,y){
+    return y-x;
+});
+
+*//*
+
+//Find
+function under50(num){
+    return num < 50;
+}
+val = numbers.find(under50);
+
+ console.log(numbers);
+ console.log(val);
+*/
