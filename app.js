@@ -168,3 +168,43 @@ val = numbers.find(under50);
  console.log(numbers);
  console.log(val);
 */
+//Object literals
+/*
+const person ={
+    firstName: 'Surojit',
+    lastName: 'Manna',
+    age: 25,
+    email: 'surojit@xyz.com',
+    hobbies: ['Gaming','Gyming'],
+    address:{
+        city: 'Kolkata',
+        state: 'West Bengal',
+    },
+    getBirthYear: function(){
+        return 2020 - this.age;
+    }
+}
+
+let val;
+val = person;
+
+//Get specific value
+val = person.firstName;
+val = person.address;
+val = person.address.state;
+val = person.hobbies[0];
+val = person.getBirthYear();
+
+console.log(val);
+
+//Arrays of object
+
+const people =[
+    {name: 'Surojit', age: 25},
+    {name: 'Nirma', age: 25}
+];
+
+for(let i =0 ; i< people.length; i++){
+    console.log(people[i].name);
+}
+*/
