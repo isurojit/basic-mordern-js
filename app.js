@@ -232,3 +232,58 @@ console.log(birthday)
 
 console.log(val);
 */
+
+//if else and comparison
+/*
+if(somthing){
+    do something
+}else{
+    do somthing else
+} */
+
+const id =100;
+
+//Equal to
+/*
+if(id == 101){
+    console.log("Correct");
+}else{
+    console.log("Wrong");
+}
+
+
+//Not Equal to
+
+if(id != 101){
+    console.log("Correct");
+}else{
+    console.log("Wrong");
+}
+
+// Strict Equal
+
+if(id === 100){
+    console.log("Correct");
+}else{
+    console.log("Wrong");
+}
+
+// Strict not Equal
+
+if(id !== 100){
+    console.log("Correct");
+}else{
+    console.log("Wrong");
+}*/
+
+//Test if Undefined
+
+if(typeof id !== 'undefined'){
+    console.log(`The ID is ${id}`);
+}else{
+    console.log("No ID");
+}
+
+//Ternary operator
+
+console.log(id === 100 ? 'Correct' : 'Incorrect');
