@@ -88,21 +88,21 @@ const city = 'Kolkata'
 
 //Without tamplate string(es5)
 /*html = '<ul>'+
-        '<li>Name: '+ name + '</li>'+ 
-        '<li>Age: ' + age +'</li>'+
-        '<li>Job: '+ job + '</li>'+
-        '<li>City: '+ city +'</li>'+
-        '</ul>';
+		'<li>Name: '+ name + '</li>'+ 
+		'<li>Age: ' + age +'</li>'+
+		'<li>Job: '+ job + '</li>'+
+		'<li>City: '+ city +'</li>'+
+		'</ul>';
 *//*
 //With tamplate string(es6+)
 html = `
-    <ul>
-    <li>Name: ${name} </li>
-    <li>Age: ${age} </li>
-    <li>Job: ${job} </li>
-    <li>City: ${city} </li>
-    <li> ${2+2} </li>
-    </ul>
+	<ul>
+	<li>Name: ${name} </li>
+	<li>Age: ${age} </li>
+	<li>Job: ${job} </li>
+	<li>City: ${city} </li>
+	<li> ${2+2} </li>
+	</ul>
 `
 document.body.innerHTML = html;
 
@@ -127,18 +127,18 @@ numbers[3]=100;
 //Find index of value
 val = numbers.indexOf(52);
 //Mutating arrays
-    //Push-to add on end
-    numbers.push(50);
-    //Unshift-to add on first
-    numbers.unshift(25);
-    //Pop-to delete from end
-    numbers.pop();
-    //shift-to delete from start
-    numbers.shift();
-    //Splice-to splice values
-    numbers.splice(6,7);
-    //Reverse array
-    numbers.reverse();
+	//Push-to add on end
+	numbers.push(50);
+	//Unshift-to add on first
+	numbers.unshift(25);
+	//Pop-to delete from end
+	numbers.pop();
+	//shift-to delete from start
+	numbers.shift();
+	//Splice-to splice values
+	numbers.splice(6,7);
+	//Reverse array
+	numbers.reverse();
 //Concatinate arrays
 val = numbers.concat(numbersSecond);
 
@@ -149,19 +149,19 @@ val = fruit.sort();
 /*
 //Use the "compare function"
 val= numbers.sort(function(x,y){
-    return x-y;
+	return x-y;
 });
 
 //Reverse Sort
 val= numbers.sort(function(x,y){
-    return y-x;
+	return y-x;
 });
 
 *//*
 
 //Find
 function under50(num){
-    return num < 50;
+	return num < 50;
 }
 val = numbers.find(under50);
 
@@ -171,18 +171,18 @@ val = numbers.find(under50);
 //Object literals
 /*
 const person ={
-    firstName: 'Surojit',
-    lastName: 'Manna',
-    age: 25,
-    email: 'surojit@xyz.com',
-    hobbies: ['Gaming','Gyming'],
-    address:{
-        city: 'Kolkata',
-        state: 'West Bengal',
-    },
-    getBirthYear: function(){
-        return 2020 - this.age;
-    }
+	firstName: 'Surojit',
+	lastName: 'Manna',
+	age: 25,
+	email: 'surojit@xyz.com',
+	hobbies: ['Gaming','Gyming'],
+	address:{
+		city: 'Kolkata',
+		state: 'West Bengal',
+	},
+	getBirthYear: function(){
+		return 2020 - this.age;
+	}
 }
 
 let val;
@@ -200,12 +200,12 @@ console.log(val);
 //Arrays of object
 
 const people =[
-    {name: 'Surojit', age: 25},
-    {name: 'Nirma', age: 25}
+	{name: 'Surojit', age: 25},
+	{name: 'Nirma', age: 25}
 ];
 
 for(let i =0 ; i< people.length; i++){
-    console.log(people[i].name);
+	console.log(people[i].name);
 }
 */
 
@@ -236,54 +236,97 @@ console.log(val);
 //if else and comparison
 /*
 if(somthing){
-    do something
+	do something
 }else{
-    do somthing else
+	do somthing else
 } */
 
-const id =100;
+//const id =100;
 
 //Equal to
 /*
 if(id == 101){
-    console.log("Correct");
+	console.log("Correct");
 }else{
-    console.log("Wrong");
+	console.log("Wrong");
 }
 
 
 //Not Equal to
 
 if(id != 101){
-    console.log("Correct");
+	console.log("Correct");
 }else{
-    console.log("Wrong");
+	console.log("Wrong");
 }
 
 // Strict Equal
 
 if(id === 100){
-    console.log("Correct");
+	console.log("Correct");
 }else{
-    console.log("Wrong");
+	console.log("Wrong");
 }
 
 // Strict not Equal
 
 if(id !== 100){
-    console.log("Correct");
+	console.log("Correct");
 }else{
-    console.log("Wrong");
+	console.log("Wrong");
 }*/
 
 //Test if Undefined
-
+/*
 if(typeof id !== 'undefined'){
-    console.log(`The ID is ${id}`);
+	console.log(`The ID is ${id}`);
 }else{
-    console.log("No ID");
+	console.log("No ID");
 }
 
 //Ternary operator
 
 console.log(id === 100 ? 'Correct' : 'Incorrect');
+*/
+/*
+//switch case
+const color = 'red';
+
+switch(color){
+	case 'red':
+		console.log('color is red');
+		break;
+	case 'blue':
+		console.log('color is blue');
+		break;
+	default:
+		console.log('Color is not red or blue');
+		break;
+}
+
+switch(new Date().getDay()){
+case 0:
+	day = 'Sunday';
+	break;
+case 1:
+	day = 'Monday';
+	break;
+case 2:
+	day = 'Tuesday';
+	break;
+case 3:
+	day = 'Wednesday';
+	break;
+case 4:
+	day = 'Thursday';
+	break;
+case 5:
+	day = 'Friday';
+	break;
+case 6:
+	day = 'Saturday';
+	break;
+}
+console.log(`Today Is ${day}`);
+
+*/
