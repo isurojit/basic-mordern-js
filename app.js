@@ -330,3 +330,49 @@ case 6:
 console.log(`Today Is ${day}`);
 
 */
+
+//Function Declarations
+
+// function  greet(firstName = 'John', lastName = 'William'){
+// 	//console.log('Hi');
+// 	return 'Hi ' + firstName +' '+lastName;
+// }
+
+// //console.log(greet());
+
+// //Function Expression
+// const square = function(x){
+// 	return x * x;
+// };
+
+// console.log(square(5));
+
+// //Immediately envokable function expressions -iifes
+
+// //(function(){
+// //	console.log('IIFE Ran..');
+// //})();
+
+
+// (function(name){
+// 	console.log('Hello '+ name + ' !');
+// })('Surojit');
+
+//Property Methods
+
+// const  todo = {
+// 	add: function(){
+// 		console.log('Add todo..')
+// 	},
+// 	edit: function(id){
+// 		console.log(`Edit todo ${id}`);
+// 	}
+// }
+
+// todo.delete= function(){
+// 	console.log('Delete todo..');
+// }
+
+// todo.add();
+// todo.edit(22);
+// todo.delete();
