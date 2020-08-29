@@ -376,3 +376,82 @@ console.log(`Today Is ${day}`);
 // todo.add();
 // todo.edit(22);
 // todo.delete();
+
+//Loops
+//For loop
+// for(let i=1; i<= 10; i++){
+
+// 	if(i === 2){
+// 		console.log('2 is my fav number');
+// 		continue;
+// 	}
+
+// 	if(i === 5){
+// 		console.log('Stop the loop');
+// 		break;
+// 	}
+// 	console.log(`Number ${i}`);
+// } 
+
+//While Loop
+
+// let i = 1;
+
+// while(i <= 10){
+// 	console.log(`Number ${i}`);
+// 	i++;
+// }
+
+//Do while loop
+
+// let i =1;
+
+// do{
+// 	console.log(`Number ${i}`);
+// 	i++;
+// }
+
+// while(i <= 10);
+
+//loop through arrays using for
+
+const cars = ['Ford', 'Honda', 'Toyota', 'Audi'];
+
+// for(let i = 0; i<cars.length; i++){
+// 	console.log(`Car Name Is ${cars[i]}`);
+// }
+
+//loop through array using foreach
+// cars.forEach(function(car, index, array){
+// 	console.log(`${index} : ${car}`);
+// 	console.log(array);
+// })
+
+//loop trhough map
+
+// const users = [
+// 	{id:1, name:'Alex'},
+// 	{id:2, name:'Austin'},
+// 	{id:3, name:'Maria'},
+// 	{id:4, name:'Peter'}
+// ];
+
+// const names = users.map(function(nam){
+// 	return nam.name;
+// });
+
+// console.log(names);
+
+
+//for in loop
+
+const user ={
+	firstName:'Surojit',
+	lastName: "Manna",
+	age: 23,
+	city: "Kolkata"
+};
+
+for(let x in user){
+	console.log(`${x}: ${user[x]}`);
+}
