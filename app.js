@@ -415,7 +415,7 @@ console.log(`Today Is ${day}`);
 
 //loop through arrays using for
 
-const cars = ['Ford', 'Honda', 'Toyota', 'Audi'];
+// const cars = ['Ford', 'Honda', 'Toyota', 'Audi'];
 
 // for(let i = 0; i<cars.length; i++){
 // 	console.log(`Car Name Is ${cars[i]}`);
@@ -445,13 +445,67 @@ const cars = ['Ford', 'Honda', 'Toyota', 'Audi'];
 
 //for in loop
 
-const user ={
-	firstName:'Surojit',
-	lastName: "Manna",
-	age: 23,
-	city: "Kolkata"
-};
+// const user ={
+// 	firstName:'Surojit',
+// 	lastName: "Manna",
+// 	age: 23,
+// 	city: "Kolkata"
+// };
 
-for(let x in user){
-	console.log(`${x}: ${user[x]}`);
-}
+// for(let x in user){
+// 	console.log(`${x}: ${user[x]}`);
+// }
+
+//Window object
+//Windows methods /objects / paroperties
+//alert
+//alert('hi!');
+//prompt
+// const input = prompt();
+// alert(input);
+
+//confirm
+// if(confirm('Are your sure')){
+// 	console.log('yes');
+// }else{
+// 	console.log('no');
+// }
+
+// let val;
+
+// // //outer height and width
+// // val = window.outerHeight;
+// // val = window.outerWidth;
+
+// // //inner heigh and width
+// // val = window.innerHeight;
+// // val = window.innerWidth;
+
+// // //scroll points
+// // val = window.scrollY;
+// // val = window.screenX;
+
+// // //location object
+// // val = window.location;
+// // val = window.location.hostname;
+// // val = window.location.port;
+// // val = window.location.href;
+// // val = window.location.search;
+
+// // //redirect
+// // //window.location.href = 'http://google.com';
+
+// // //History Object
+// // //window.history.go(-1);
+// //val = window.history.length;
+
+// //Navigator Object
+// val = window.navigator;
+// val = window.navigator.appName;
+// val = window.navigator.appVersion;
+// val = window.navigator.userAgent;
+// val = window.navigator.platform;
+// val = window.navigator.vendor;
+// val = window.navigator.language;
+
+// console.log(val);
